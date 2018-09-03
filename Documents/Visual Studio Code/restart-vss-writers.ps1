@@ -41,3 +41,4 @@ $writers = vssadmin list writers |
 if ($ServiceNames) { Restart-Service -Name ($ServiceNames | Select-Object -Unique) -WhatIf }
 
 if ($Result) { Restart-Service -Name ($ServiceNames | Select-Object -Unique) -WhatIf }
+*KOMMENTAR
